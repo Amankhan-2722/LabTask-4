@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class Lab4Task7 {
+	public static void main(String [] args){
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter the length of rectangle A: ");
+		double lengthRectA = input.nextDouble();
+
+		System.out.print("Enter the width of rectangle A: ");
+		double widthRectA = input.nextDouble();
+		double areaA = lengthRectA * widthRectA;
+		
+		System.out.print("Enter the length of rectangle B: ");
+		double lengthRectB = input.nextDouble();
+
+		System.out.print("Enter the width of rectangle B: ");
+		double widthRectB = input.nextDouble();
+		double areaB = lengthRectB * widthRectB;
+
+		if (areaA > areaB){
+		System.out.print("Rectangle A has greater area ");
+		}
+		if (areaB > areaA){
+		System.out.print("Rectangle B has greater area ");
+		}
+		if (areaB == areaA){
+		System.out.print("Both have equal area: ");
+		}
+		}
+	}
