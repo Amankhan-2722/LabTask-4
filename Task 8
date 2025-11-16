@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Lab4Task8 {
+	public static void main(String [] args){
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter a month ");
+		int month= input.nextInt();
+		
+		System.out.print("Enter a date ");
+		int date= input.nextInt();
+		
+		System.out.print("Enter an year ");
+		int year= input.nextInt();
+		
+		if (month * date == year){
+		System.out.print("Date is magic ");
+		}
+		else{
+		System.out.print("Date is not magic ");
+		}
+		}
+	}
